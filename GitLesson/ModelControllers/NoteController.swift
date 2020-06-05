@@ -8,3 +8,11 @@
 
 import Foundation
 
+class NoteController {
+    static let shared = NoteController()
+    var notes: [Note] = []
+    
+    func add(note: Note) {
+        notes.append(note)
+    }
+}
