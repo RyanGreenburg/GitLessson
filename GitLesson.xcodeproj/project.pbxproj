@@ -56,15 +56,31 @@
 		625ADD8E248AEB7C005FEDBE /* GitLesson */ = {
 			isa = PBXGroup;
 			children = (
+				625ADDA4248AF2B5005FEDBE /* Views */,
+				625ADDA3248AF2A9005FEDBE /* Resources */,
+			);
+			path = GitLesson;
+			sourceTree = "<group>";
+		};
+		625ADDA3248AF2A9005FEDBE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				625ADD8F248AEB7C005FEDBE /* AppDelegate.swift */,
 				625ADD91248AEB7C005FEDBE /* SceneDelegate.swift */,
-				625ADD93248AEB7C005FEDBE /* ViewController.swift */,
-				625ADD95248AEB7C005FEDBE /* Main.storyboard */,
 				625ADD98248AEB7F005FEDBE /* Assets.xcassets */,
 				625ADD9A248AEB7F005FEDBE /* LaunchScreen.storyboard */,
 				625ADD9D248AEB7F005FEDBE /* Info.plist */,
 			);
-			path = GitLesson;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		625ADDA4248AF2B5005FEDBE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				625ADD93248AEB7C005FEDBE /* ViewController.swift */,
+				625ADD95248AEB7C005FEDBE /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
